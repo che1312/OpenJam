@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <Switch
+        android:key="notifications_new_messages"
+        android:title="new_mat_not"
+        android:defaultValue="true"
+        android:layout_width="80dp"
+        android:layout_height="30"
+        android:text="New Match Notifications"
+        android:id="@+id/switch2"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:key="notifications_new_messages"
+        android:title="new_msg_not"
+        android:defaultValue="true"
+        android:layout_width="80dp"
+        android:layout_height="30"
+        android:text="New Message Notifications"
+        android:id="@+id/switch2"
+        android:layout_marginTop="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:text="Privacy Policy"
+        android:id="@+id/button"
+        android:layout_marginTop="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="sendPrivacyPolicy"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:text="Terms of Service"
+        android:id="@+id/button"
+        android:layout_marginTop="159dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="sendPrivacyPolicy"/>
+
+
+</RelativeLayout>
